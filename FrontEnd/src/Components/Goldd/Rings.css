@@ -1,0 +1,36 @@
+ .myclass {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+         border: white;
+    }
+
+    .cardss{
+        border: none;
+        background-color: antiquewhite;
+    }
+
+    .cardss:hover img {
+        transform: scale(1.5);
+    }
+   
+    .btn-primary {
+        color: white;
+        background-color:  rgb(133, 8, 133);
+        border-color:  rgb(146, 12, 146);
+    }
+    
+    .btn-primary:hover {
+        color: #212529;
+        background-color: rgb(34, 189, 34);
+        border-color: #8ad3d3
+        
+    }
+    
+    .btn-primary:focus,
+    .btn-primary.focus {
+        box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+    }
+    
+    
+    
